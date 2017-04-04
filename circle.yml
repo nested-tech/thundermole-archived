@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.10.1
+
+deployment:
+  production: # just a label; label names are completely up to you
+    branch: master
+    commands:
+      - make
+      - ./deploy-to-production.sh
