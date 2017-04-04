@@ -19,7 +19,7 @@ set :ssh_options, {
 namespace :deploy do
   task :restart do
     on roles(:app) do
-      # execute 'PM2_HOME=/home/applications /usr/bin/pm2 restart nested-web-front-end'
+      execute 'PM2_HOME=/home/applications /usr/bin/pm2 restart thundermole'
     end
   end
   after :publishing, :restart
