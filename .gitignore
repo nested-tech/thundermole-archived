@@ -1,4 +1,4 @@
-config/routes.json
+# config/routes.json
 config/statsd.json
 config/syslog.json
 coverage
